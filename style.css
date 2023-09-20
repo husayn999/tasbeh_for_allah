@@ -1,0 +1,172 @@
+body{
+    background-image: linear-gradient( to bottom
+    ,rgba(0, 0, 255, 0.637) 
+    ,rgba(0, 0, 255, 0.272) 
+    ,rgba(0, 255, 255, 0.345) 
+    ,rgba(0, 255, 255, 0.29));
+    background-attachment: fixed;
+
+}
+@media (min-width:767px){
+    .container, #h1{
+        width: 676px;
+    }
+
+}
+
+.container{
+    background-image: linear-gradient(to right
+    ,rgba(38, 0, 255, 0.509) ,rgb(0, 200, 255));
+    backdrop-filter: blur(300px);
+    margin-left:600px;
+    margin-top: 200px;
+    font-size: x-large;
+    font-family:monospace;
+    border: 1px solid rgba(0, 0, 255, 0.473);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 300px;
+    height: 320px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.564);
+}
+#h1{
+    backdrop-filter: blur(200px);
+    background-image: linear-gradient(to bottom 
+    ,rgba(100, 100, 109, 0.03) 
+    ,rgba(126, 126, 126, 0.308) 
+    ,rgba(0, 0, 0, 0.096) 
+    ,rgba(128, 125, 125, 0.043));
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.427);
+    text-align:center;
+    width: 270px;
+    border: solid 0px rgba(0, 0, 255, 0.269);
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 19px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color:#252525
+}
+button{
+    backdrop-filter: blur(300px);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.635);
+    background-image: linear-gradient(to right,rgb(38, 0, 255) ,rgb(59, 137, 255));  
+    width: 100px;
+    height: 100px;
+    border: 0px solid rgba(255, 0, 0, 0);
+    border-radius: 50% ;
+    
+    font-size: larger;
+    font-style: italic;
+    font-weight: 800;
+    margin-left: 102px;
+    margin-top: 60px;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+    transition-property: width ,height;
+    transition-duration: 1s;
+}
+button:hover{
+
+    background-image: linear-gradient(to right,rgb(176, 0, 0) ,rgb(255, 98, 0));
+    cursor: pointer;
+}
+hr{
+    border-radius: 50px;
+    border: 1px solid rgba(19, 222, 205, 0.377);
+    backdrop-filter: blur(300px);
+    box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.114);
+    width: 279px;
+    margin-top: -10px;
+}
+.h21{ 
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 0px -8px 2px 6px rgba(0, 0, 0, 0.046);
+    
+    width:1300px;
+}
+p{
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    font-style:oblique;
+    font-weight: bolder;
+    font-size: medium;
+    
+}
+.but1{
+    position: relative;
+    right: 2px;
+    margin-left: 900px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.317),rgba(0, 0, 255, 0.313));
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.but2{
+    position: relative;
+    right: 50px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.317),rgba(0, 0, 255, 0.313));
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.but3{
+ position: relative;
+    right: 100px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.317),rgba(0, 0, 255, 0.313));
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+nav{
+   display: flex;
+   flex-wrap:nowrap;
+   margin-top: -160px;
+  
+}
+.davedov{
+    margin: -8px ;
+    background-image: linear-gradient(rgba(173, 216, 230, 0.311),rgba(255, 182, 193, 0.288),rgba(0, 255, 255, 0.174));
+    height: 106px;
+    box-shadow: #2525253a 0px 0px 5px 5px;
+}
+
+
+.but4{
+    font-size: 80px;
+    color: lightblue;
+} 
+#button2{
+ width: 30px ;
+ height: 30px;
+ position: relative;
+ top:-210px;
+ left: 140px;
+ font-size: small;
+ font-weight: bolder;
+}
